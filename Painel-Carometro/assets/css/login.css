@@ -1,0 +1,49 @@
+.card-piffer{
+    display: flex;
+    width: 734.36px;
+    height: 96px;
+    top: 327px;
+    left: 66px;
+    border: 1px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    margin-left: 216px;
+
+
+}
+.piffer-img{
+    width: 320px;
+    height: 91.48px;
+    top: 329px;
+    left: 66px;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 20px;
+
+}
+
+h1{
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 96px;
+    text-align: left;
+    color: white;
+
+}
+
+
+body{
+    background-color: #00111c;
+
+}
+
+.tela-login{
+    width: 498px;
+    height: 768px;
+    left: 868px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #FCFCFC;
+}
