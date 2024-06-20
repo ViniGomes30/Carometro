@@ -1,8 +1,9 @@
-body{
-    margin:0px;
+body {
+    margin: 0px;
     background-color: #00111c;
 }
-.card-piffer{
+
+.card-piffer {
     display: flex;
     width: 100vh;
     height: 100vh;
@@ -10,7 +11,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.piffer-img{
+
+.piffer-img {
     width: 320px;
     height: 91.48px;
     top: 329px;
@@ -18,37 +20,114 @@ body{
     gap: 0px;
     opacity: 0px;
     padding-right: 20px;
-
 }
 
-h1{
+h1 {
     font-family: Poppins;
     font-size: 64px;
     font-weight: 300;
     line-height: 96px;
     text-align: left;
     color: white;
-
 }
 
-.content-box{
+.content-box {
     width: 500px;
     height: 100vh;
     position: absolute;
     right: 0px;
     top: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #FCFCFC;
     border-radius: 10px;
-    
 }
-.tela-login{
-    flex:1;
-    
+
+.tela-login {
+    flex: 1;
     height: 352px;
-
 }
 
-.login-info{
-    
+.login-info {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-info p {
+    margin-bottom: 20px;
+}
+
+.login-info form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+
+.login-info label {
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+.login-info input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-info .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.login-info .options label {
+    display: flex;
+    align-items: center;
+}
+
+.login-info .options input {
+    margin-right: 5px;
+}
+
+.login-info button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0075A0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-info button:hover {
+    background-color: #007bb5;
+}
+
+.login-info footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.login-info footer a {
+    color: #0096db;
+    text-decoration: none;
 }

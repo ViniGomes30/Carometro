@@ -26,9 +26,23 @@
                 <div class="login-info">
                     <h2>Olá, seja bem vindo(a)</h2>
                     <p>Faça o login para prosseguir</p>
-                <div class="user">
-                        <label>Usuário</label>
-                </div>
+                    <form>
+                        <label for="username">Usuário</label>
+                        <input type="text" id="username" name="username" placeholder="Usuário123" required>
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="************" required>
+                        <div class="options">
+                            <label>
+                                <input type="checkbox" name="remember"> Lembrar-me
+                            </label>
+                            <a href="">Esqueci minha senha</a>
+                        </div>
+                        <button type="submit">ENTRAR</button>
+                    </form>
+                    <footer>
+                        <p>Desenvolvido por: <a href="">Applay</a> |</p>
+                        <p>Versão: 0.0.0 </p>
+                    </footer>
                 </div>
             </div>
         </div>
