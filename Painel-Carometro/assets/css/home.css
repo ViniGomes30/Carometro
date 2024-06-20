@@ -44,8 +44,11 @@ header {
 
 .stats {
     display: flex;
-    gap: 10px;
-    margin-right: 20px;
+    gap: 30px;
+    margin-right: 10px;
+    padding-bottom: 30px;
+    
+
 }
 
 .stat-item {
@@ -65,13 +68,13 @@ header {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
-    width: 526px;
-    height: 675px;
+    width: 40%;
+    height: 70vh;
     top: 238px;
     left: 32px;
     gap: 0px;
     opacity: 0px;
-
+    border-radius: 10px;
 }
 
 .date-filter {
@@ -81,8 +84,16 @@ header {
 
 .date-filter input{
     display: flex;
-
+    width: 233px;
+    height: 48px;
+    top: 34px;
+    left: 20px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 0.7px 0px 0px 0px;
+    opacity: 0px;
 }
+
 
 .date-filter label {
     margin-right: 10px;
@@ -92,45 +103,98 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 70px;
+    width: 100%;
+    height: 180px;
+    top: 106px;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    left: 18px;
+    background: #F6F6F6;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
 }
 
 .order {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #e6e6e6;
+    gap: 150px;
+    margin-left:0px;
     padding: 10px;
-    border: 1px solid #ddd;
+}
+.button-ativo{
+    background-color: #0075A0;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
 }
 
-.order.active {
-    background-color: #007bff;
-    color: #fff;
+#start-date{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 230px;
+    margin-left: 21px;
+    border-radius: 10px;
+    text-align: right;
+    border: solid rgb(214, 214, 214) 1px;
+}
+#data{
+    margin-left: 2px;
+    color: gray;
+}
+#date{
+    margin-left: 373px;
+    color: gray;
+}
+
+#end-date{
+    text-align: right;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-left: 494px;
+    margin-top: 230px;
+    border: solid rgb(214, 214, 214) 1px;
+    border-radius: 10px;
 }
 
 .order-info, .order-code, .order-quantity {
-    text-align: center;
+    text-align: left;
 }
-
+#pedido{
+    color:gray;
+}
 .open-order {
-    padding: 10px 20px;
-    background-color: #007bff;
+    position: absolute;
+    background-color: #0075A0;
     color: #fff;
+    margin-top: 80px;
     border: none;
     cursor: pointer;
+    width: 650px;
+    height: 60px;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 .events {
-    margin-left: 20px;
+    margin-left: 10px;
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
-    width: 826px;
-    height: 675px;
+    width: 60%;
+    height: 70vh;
     top: 238px;
     left: 582px;
     gap: 0px;
     opacity: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .event {
