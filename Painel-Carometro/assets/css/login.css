@@ -1,16 +1,14 @@
+body{
+    margin:0px;
+    background-color: #00111c;
+}
 .card-piffer{
     display: flex;
-    width: 734.36px;
-    height: 96px;
-    top: 327px;
-    left: 66px;
-    border: 1px;
+    width: 100vh;
+    height: 100vh;
+    margin-left: 250px;
     justify-content: center;
     align-items: center;
-    margin-top: 400px;
-    margin-left: 216px;
-
-
 }
 .piffer-img{
     width: 320px;
@@ -33,17 +31,24 @@ h1{
 
 }
 
-
-body{
-    background-color: #00111c;
+.content-box{
+    width: 500px;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    display: flex;
+    background-color: #FCFCFC;
+    border-radius: 10px;
+    
+}
+.tela-login{
+    flex:1;
+    
+    height: 352px;
 
 }
 
-.tela-login{
-    width: 498px;
-    height: 768px;
-    left: 868px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: #FCFCFC;
+.login-info{
+    
 }
