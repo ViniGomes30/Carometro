@@ -11,7 +11,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+hr{
+    width: 296px;;
+}
 .piffer-img {
     width: 320px;
     height: 91.48px;
@@ -32,7 +34,7 @@ h1 {
 }
 
 .content-box {
-    width: 500px;
+    width: 497px;
     height: 100vh;
     position: absolute;
     right: 0px;
@@ -44,27 +46,26 @@ h1 {
     border-radius: 10px;
 }
 
-.tela-login {
+.login-info {
+    padding: 0 95px;
     flex: 1;
     height: 352px;
-}
-
-.login-info {
-    width: 100%;
-    max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-
+.text{
+    font-family: Poppins;
+    margin-bottom: 0px;
+}
 .login-info h2 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 10px;
 }
 
 .login-info p {
+    text-align: center;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -115,6 +116,7 @@ h1 {
     border-radius: 4px;
     cursor: pointer;
     width: 100%;
+    margin-bottom: 138px;
 }
 
 .login-info button:hover {
@@ -130,4 +132,11 @@ h1 {
 .login-info footer a {
     color: #0096db;
     text-decoration: none;
+}
+
+a{
+}
+
+.checkbox{
+    align-items: center;
 }
