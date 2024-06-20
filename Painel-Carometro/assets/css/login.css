@@ -48,6 +48,7 @@ h1 {
 }
 
 .login-info {
+    padding-top: 146px;
     width: 400px;
     height: 352px;
     display: flex;
@@ -130,6 +131,9 @@ h1 {
     font-size: 12px;
 }
 
+.footer-applay{
+    padding-top: 160px;
+}
 .login-info footer a {
     color: #0096db;
     text-decoration: none;
