@@ -14,7 +14,14 @@ header {
     border-bottom: 1px solid #ddd;
 }
 .logo img {
+    cursor: pointer;
     height: 40px;
+}
+
+.notifications{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .notifications img{
@@ -27,17 +34,38 @@ header {
     
 }
 
-
-.user-info {
+.user{
     display: flex;
     align-items: center;
 }
 
-.user span {
-    display: block;
-    margin-right: 20px;
+.user img{
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
 }
 
+.user-text{ 
+    margin-right: 40px;
+}
+.user-loja{
+    color: gray;
+    font-size: 13px;
+}
+.user-info {
+    gap: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+#user-arrow{
+    position: absolute;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
 .dashboard {
     padding: 20px;
 }
@@ -145,6 +173,7 @@ header {
     font-family: Poppins;
     font-size: 18px;
     margin-top: 230px;
+    cursor: pointer;
     margin-left: 21px;
     border-radius: 10px;
     text-align: right;
@@ -163,6 +192,7 @@ header {
     text-align: right;
     position: absolute;
     font-family: Poppins;
+    cursor: pointer;
     font-size: 18px;
     margin-left: 494px;
     margin-top: 230px;
@@ -250,6 +280,7 @@ header {
     position: absolute;
     margin-left: 60px;
     margin-top: 35px;
+    cursor: pointer;
     width: 15px;
 }
 .container{
