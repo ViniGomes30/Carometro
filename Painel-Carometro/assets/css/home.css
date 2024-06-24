@@ -175,16 +175,20 @@ header {
     margin-top: 230px;
     cursor: pointer;
     margin-left: 21px;
-    border-radius: 10px;
+    border-radius: 7px;
     text-align: right;
     border: solid rgb(214, 214, 214) 1px;
 }
 #data{
+    background-color: white;
+    font-size: 18px;
     margin-left: 2px;
     color: gray;
 }
 #date{
-    margin-left: 373px;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 365px;
     color: gray;
 }
 
@@ -197,7 +201,7 @@ header {
     margin-left: 494px;
     margin-top: 230px;
     border: solid rgb(214, 214, 214) 1px;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 
 .order-info, .order-code, .order-quantity {
