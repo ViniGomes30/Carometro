@@ -45,7 +45,14 @@ header .user-info {
     margin-bottom: 10px;
 }
 
+.form-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 .form-group {
+    flex: 1 1 45%;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
@@ -108,4 +115,65 @@ header .user-info {
 
 .checklist-esteira button:hover {
     background-color: #0056b3;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    cursor: pointer;
+    height: 40px;
+}
+
+.notifications {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.notifications img {
+    width: 20px;
+    height: 25.59px;
+    opacity: 0;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+.user-text {
+    margin-right: 40px;
+}
+
+.user-loja {
+    color: gray;
+    font-size: 13px;
+}
+
+.user-info {
+    gap: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+#user-arrow {
+    position: absolute;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
 }
