@@ -67,12 +67,13 @@ header {
 
 .kit-details h2, .checklist-estrutura h2{
     margin: 0 0 20px;
+    font-weight: 500;
 }
 
 .kit-info {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 15px;
 }
 
 .kit-info > div {
@@ -80,47 +81,85 @@ header {
     align-items: center;
     padding: 10px;
     border: solid 1px #ddd;
-    border-radius: 90px;
+    border-radius: 10px;
     font-size: 18px;
 }
 
 .kit-info span {
     margin-left: 10px;
     color: gray;
+    font-size: 20px;
 }
 
 .checklist-item {
-    width: 325px;
+    width: 900px;
+    height: 56px;
     border-radius: 8px;
-    BORDER: solid 1px #ddd;
-    gap: 30px;
+    border: solid 1px #ddd;
     padding: 8px;
-    margin-left: 10px;
+    font-size: 18px;
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.checklist-item img{
+    width: 32px;
+    height: 32px;
+    padding-right: 20px;
+}
+
+.checklist-esteira-item{
+    width: 400px;
+    height:56px;
+    border-radius: 8px;
+    border: solid 1px #ddd;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checklist-esteira-item select{
+    padding: 5px;
+    width: 237px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+
 }
 
 .checklist-item select {
-    width: 150px;
     padding: 5px;
+    width: 237px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 474px;
 }
 
 .checklist-esteira button {
     margin-top: 20px;
+    width: 237px;
+    height: 56px;
+    margin-left: 95px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #0075A0;
     color: #fff;
+    font-weight: 700;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
 }
 
-.checklist-esteira button:hover {
-    background-color: #0056b3;
-}
-
 .checklist-esteira{
+    border-left: solid 1px #DCDCDC;
+    padding-left: 100px;
+    position: absolute;
+    right: 300px;
+    margin-top: 55px;
 }
 
 .checklist-estrutura{
