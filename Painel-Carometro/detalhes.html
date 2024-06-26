@@ -1,134 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhe</title>
+    <title>Detalhes</title>
     <link rel="stylesheet" href="assets/css/detalhes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="full">
         <header>
             <div class="logo">
                 <img src="assets/img/logopp.png" href="home.html" alt="PifferPrint">
             </div>
-            <div class="user-info">
-                <div class="notifications">
-                    <img src="assets/img/sino.png" alt="sino">
-                    Notificações
-                </div>           
+            <div class="user-info">       
                 <div class="user">
                     <img src="assets/img/user.png" alt="user">
                     <div class="user-text">
                         Usuário <img id="user-arrow" src="assets/img/arrow.png" alt="seta"> <br>
                         <div class="user-loja">
-                            Loja: 1
+                            Loja: 2
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="cadastro-kit">
-            <h2>Cadastro de Kit</h2>
-            <form>
-                <div class="form-group">
-                    <label>Mapa Saída</label>
-                    <input type="text" value="01020456">
+        <main>
+            <div class="dashboard">
+                <div class="kit-details">
+                    <h2>Cadastro de Kit</h2>
+                    <div class="kit-info">
+                        <div>Mapa Saída: <span>01020456</span></div>
+                        <div>Código: <span>01020456</span></div>
+                        <div>CD Envio: <span>01020456</span></div>
+                        <div>Peso/ caixa: <span>01020456</span></div>
+                        <div>Tiragem: <span>01020456</span></div>
+                        <div>QTd. Paletes: <span>01020456</span></div>
+                        <div>Kits/ caixa: <span>01020456</span></div>
+                        <div>Descrição: <span>01020456</span></div>
+                        <div>Caixa/ Palete: <span>01020456</span></div>
+                        <div>Observação: <span>01020456</span></div>
+                        <div>Peso total: <span>01020456</span></div>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>Código</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>CD Envio</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>Peso/ caixa</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>Tiragem</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>QTD. Paletes</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>Kits/ caixa</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>Peso total</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>Caixa/ Palete</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>Descrição</label>
-                    <input type="text" value="01020456">
-                </div>
-                <div class="form-group">
-                    <label>Observação</label>
-                    <input type="text" value="01020456">
-                </div>
-            </form>
-        </div>
-        <div class="checklist">
-            <h2>Checklist Estrutura</h2>
-            <form>
-                <div class="checklist-item">
-                    <input type="checkbox" checked>
-                    <label>Livro Português</label>
-                    <select>
-                        <option>Selecione um leitor</option>
-                        <option>01</option>
-                        <option>02</option>
-                    </select>
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox" checked>
-                    <label>Livro Português</label>
-                    <select>
-                        <option>Todas</option>
-                        <option>01</option>
-                        <option>02</option>
-                    </select>
-                </div>
-                <div class="checklist-item">
-                    <input type="checkbox" checked>
-                    <label>Livro Português</label>
-                    <select>
-                        <option>Todas</option>
-                        <option>01</option>
-                        <option>02</option>
-                    </select>
-                </div>
-            </form>
-            <div class="checklist-esteira">
-                <h2>Checklist Esteira</h2>
-                <form>
-                    <div class="form-group">
-                        <label>Esteira: 01</label>
+                <div class="checklist-estrutura">
+                    <h2>Checklist Estrutura</h2>
+                    <div class="checklist-item">
+                        <span>Livro Português</span>
                         <select>
+                            <option>Selecione um leitor</option>
                             <option>01</option>
                             <option>02</option>
+                            <option>03</option>
                         </select>
                     </div>
-                    <div class="form-group">
-                        <label>Leitor Caixa: 01</label>
+                    <div class="checklist-item">
+                        <span>Livro Português</span>
                         <select>
+                            <option>Selecione um leitor</option>
                             <option>01</option>
                             <option>02</option>
+                            <option>03</option>
                         </select>
                     </div>
-                    <button type="submit">Iniciar Operação</button>
-                </form>
+                    <div class="checklist-item">
+                        <span>Livro Português</span>
+                        <select>
+                            <option>Selecione um leitor</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                        </select>
+                    </div>
+                    <div class="checklist-item">
+                        <span>Livro Português</span>
+                        <select>
+                            <option>Selecione um leitor</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                        </select>
+                    </div>
+                    <div class="checklist-esteira">
+                        <h2>Checklist Esteira</h2>
+                        <div class="checklist-item">
+                            <span>Esteira:</span>
+                            <select>
+                                <option>01</option>
+                            </select>
+                        </div>
+                        <div class="checklist-item">
+                            <span>Leitor Caixa:</span>
+                            <select>
+                                <option>01</option>
+                            </select>
+                        </div>
+                        <button>Iniciar Operação</button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </main>
     </div>
 </body>
 </html>
