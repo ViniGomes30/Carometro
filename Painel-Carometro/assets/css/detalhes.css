@@ -166,3 +166,10 @@ header {
     display: flex;
     flex-direction: column;
 }
+
+.select{
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+
+}
