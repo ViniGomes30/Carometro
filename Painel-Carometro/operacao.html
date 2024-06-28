@@ -32,26 +32,28 @@
     <main>
         <div class="dashboard">
             <div class="info-box">
-                <div class="order-list">
-                    <div class="order active">
-                        <div class="order-paper">
-                            <div class="order-details">
+                <div class="order-box">
+                    <div class="order-ativo">
+                            <div class="order-box-details">
                             <div class="order-info">
-                                <div class="order-style">
-                                    <span class="pedido">Pedido: </span>
+                                <div class="order-box-pedido">
+                                    <span class="pedido-box">Pedido: </span>
                                     <span>123456789012345678901234</span>
                                 </div>
                             </div>
-                                <div class="order-code">
-                                    <span class="codigo">SKU: </span>
-                                    <span>00000000000</span>
+                                <div class="order-box-codigo">
+                                    <span class="codigo-box">Código: </span>
+                                    <span>123456789012345678901234</span>
                                 </div>
-                                <div class="order-quantity">
-                                    <span class="tiragem">Leitor: </span>
-                                    <span>001</span>
+                                <div class="order-box-obs">
+                                    <span class="obs-box">obs: </span>
+                                    <span>Identificação 1 série formação de kits</span>
+                                </div>
+                                <div class="order-box-status">
+                                    <span class="status-box">Status: </span>
+                                    <span class="status-bg">Conectado</span>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -90,34 +92,32 @@
                 </div>
                 <div class="orders ocultar ativo">
                     <div class="order-list">
-                        <div class="order active">
-                            <div class="order-paper">
-                                <img src="assets/img/paste-detail.png" alt="paste" class="order-icon">
-                                <div class="order-details">
-                                <div class="order-info">
-                                    <div class="order-style">
-                                        <span class="pedido">Item</span><br>
-                                        <span>Livro Inglês</span>
-                                    </div>
-                                </div>
-                                    <div class="order-code">
-                                        <span class="codigo">SKU</span><br>
-                                        <span>00000000000</span>
-                                    </div>
-                                    <div class="order-quantity">
-                                        <span class="tiragem">Leitor</span><br>
-                                        <span>001</span>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="stats-2">
+                            <div class="stat-item-2">Buffer Prekits<br><span>1</span></div>
+                            <div class="stat-item-2">Buffer Kits<br><span></span>1</div>
+                            <div class="stat-item-2">Buffer Rejeitos<br><span></span>1</div>
+                            <div class="stat-item-2">Buffer Caixas<br><span></span>1</div>
+                            <div class="stat-item-2">Buffer Paletes<br><span></span>1</div>
+                            <div class="stat-item-2">Device ID<br><span></span>1</div>
                         </div>
                     </div>
                 </div>
                 <div class="events">
-                    <div class="event">
-                        <img src="assets/img/x.png" alt="x">
-                        <span class="event-description"><br><span class="descriptions"></span></span>
-                        <span class="event-time"></span>
+                    <h2>Histórico de Eventos</h2>
+                    <div class="event-alert">
+                        <img class="event-img" src="assets/img/alerta.png" alt="alert">
+                        <span class="event-description"><br><span class="descriptions"></span>Alerta, essa mensagem é um alerta</span>
+                        <span class="event-time">Hoje 14:00</span>
+                    </div>
+                    <div class="event-error">
+                        <img class="event-img" src="assets/img/erro.png" alt="error">
+                        <span class="event-description"><br><span class="descriptions"></span>Erro, kit inválido no aceite</span>
+                        <span class="event-time">Hoje 14:00</span>
+                    </div>
+                    <div class="event-success">
+                        <img class="event-img" src="assets/img/sucesso.png" alt="success">
+                        <span class="event-description"><br><span class="descriptions"></span>Sucesso, a sua operação foi concluída com sucesso</span>
+                        <span class="event-time">Hoje 14:00</span>
                     </div>
                 </div>
             </div>
