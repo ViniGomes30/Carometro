@@ -5,6 +5,10 @@
     background-color: #f4f4f4;
 }
 
+body{
+    margin: 0px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -42,6 +46,20 @@ header {
     align-items: center;
 }
 
+.info-box{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.order-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 #user-arrow {
     cursor: pointer;
     width: 28px;
@@ -50,7 +68,7 @@ header {
 
 .dashboard {
     padding: 20px;
-    padding-bottom: 43px;
+    padding-bottom: 30px;
 }
 
 .order-paper{
@@ -88,7 +106,7 @@ header {
     padding: 20px;
     border: 1px solid #ddd;
     width: 40%;
-    height: 70vh;
+    height: 50vh;
     overflow-y: auto;
     border-radius: 10px;
 }
@@ -119,7 +137,6 @@ header {
 .order-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -127,14 +144,14 @@ header {
 .order {
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid #D9D9D9;
     border-radius: 10px;
     background-color: #fff;
 }
 
 .order-icon {
-    width: 35px;
+    width: 40px;
 }
 .order-important{
     display: flex;
@@ -144,7 +161,7 @@ header {
     color: #6B6B6B;
 }
 .order-style{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .codigo{
@@ -160,7 +177,7 @@ header {
 
 .order-info, .order-code, .order-quantity {
     text-align: left;
-    font-size: 18px;
+    font-size: 23px;
 }
 
 .button-ativo {
@@ -189,7 +206,7 @@ header {
     padding: 20px;
     border: 1px solid #ddd;
     width: 60%;
-    height: 70vh;
+    height: 50vh;
     overflow-y: auto;
     border-radius: 10px;
 }
@@ -227,4 +244,12 @@ header {
     text-align: right;
     font-size: 14px;
     color: #6B6B6B;
+}
+
+.ocultar{
+    display: none;
+}
+
+.ativo{
+    display: block;
 }
