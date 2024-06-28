@@ -34,11 +34,9 @@ header {
     border-radius: 48px;
 }
 
-.user-loja {
-    color: #6B6B6B;
-    font-size: 13px;
+.user-text{
+    display: flex;
 }
-
 .user-info {
     gap: 50px;
     display: flex;
@@ -55,11 +53,56 @@ header {
     border-radius: 10px;
 }
 
+.progress{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.progress-box{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.percentage{
+    margin-left: 10px;    
+}
 .order-details{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
+.bar {
+    width: 100%;
+    height: 20px;
+}
+.bar progress[value] {
+    --color: #0068a0; /* the progress color */
+    --background: #E7E7E7; /* the background color */
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    border-radius: 30px;
+    background: var(--background);
+  }
+  .bar progress[value]::-webkit-progress-bar {
+    border-radius: 30px;
+    background: var(--background);
+  }
+  .bar progress[value]::-webkit-progress-value {
+    border-radius: 30px;
+    background: var(--color);
+  }
+  .bar progress[value]::-moz-progress-bar {
+    border-radius: 30px;
+    background: var(--color);
+  }
 
 .order-box-details{
     width: 100%;
@@ -155,7 +198,6 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 10px;
 }
 
 .order {
@@ -270,18 +312,18 @@ header {
 .event-alert {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 8px;
     margin-bottom: 10px;
-    color: #F6AB2F;
+    color: #6B6B6B;
     border: 1px solid #F6AB2F;
     border-radius: 10px;
-    background-color: #F6AB2F21;
+    background-color: white;
 }
 
 .event-error {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 8px;
     margin-bottom: 10px;
     color: #B71C1C;
     border: 1px solid #B71C1C;
@@ -292,7 +334,7 @@ header {
 .event-success {
     display: flex;
     align-items: center;
-    padding: 15px;
+    padding: 8px;
     margin-bottom: 10px;
     color: #34AA44;
     border: 1px solid #34AA44;
