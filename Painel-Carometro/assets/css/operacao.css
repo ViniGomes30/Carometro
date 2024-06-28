@@ -1,0 +1,230 @@
+.full {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+.logo img {
+    cursor: pointer;
+    height: 40px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    margin-right: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+}
+
+.user-loja {
+    color: #6B6B6B;
+    font-size: 13px;
+}
+
+.user-info {
+    gap: 50px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+#user-arrow {
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+
+.dashboard {
+    padding: 20px;
+    padding-bottom: 43px;
+}
+
+.order-paper{
+    display: flex;
+    align-items: center;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.stat-item {
+    border-radius: 15px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.stat-item span {
+    font-size: 18px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.orders {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 40%;
+    height: 70vh;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.date-filter {
+    display: flex;
+    color: #6B6B6B;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.date-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-filter input {
+    height: 48px;
+    width: 233px;
+    font-family: Poppins;
+    font-size: 23px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.order {
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.order-icon {
+    width: 35px;
+}
+.order-important{
+    display: flex;
+}
+.pedido{
+    font-size: 18px;
+    color: #6B6B6B;
+}
+.order-style{
+    margin-left: 10px;
+}
+
+.codigo{
+    font-size: 18px;
+
+    color: #6B6B6B;
+}
+
+.tiragem{
+    font-size: 18px;
+    color: #6B6B6B;
+}
+
+.order-info, .order-code, .order-quantity {
+    text-align: left;
+    font-size: 18px;
+}
+
+.button-ativo {
+    font-size: 17px;
+    background-color: #0075A0;
+    color: white;
+    padding: 2px 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.open-order {
+    background-color: #0075A0;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.events {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 60%;
+    height: 70vh;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.event img {
+    margin-left: 50px;
+    cursor: pointer;
+    width: 15px;
+}
+
+.event-description {
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.descriptions {
+    font-size: 20px;
+    color: #6B6B6B;
+}
+
+.event-time {
+    text-align: right;
+    font-size: 14px;
+    color: #6B6B6B;
+}

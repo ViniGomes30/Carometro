@@ -18,22 +18,6 @@ header {
     height: 40px;
 }
 
-.notifications{
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-
-.notifications img{
-    width: 20px;
-    height: 25.59px;
-    top: 28.33px;
-    left: 1026px;
-    gap: 0px;
-    opacity: 0px;
-    
-}
-
 .user{
     display: flex;
     align-items: center;
