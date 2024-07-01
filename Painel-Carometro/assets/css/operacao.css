@@ -159,7 +159,7 @@ header {
     padding: 20px;
     border: 1px solid #ddd;
     width: 40%;
-    height: 50vh;
+    height: 45vh;
     overflow-y: auto;
     border-radius: 10px;
 }
@@ -478,4 +478,50 @@ h2{
     margin-left: 10px;   
     color: gray;
 
+}
+
+.tabs {
+    display: flex;
+    width: 30vh;
+}
+
+
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    font-family: Poppins;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 53px;
+    border-bottom: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+.tab-button.active {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    height: 53px;
+    line-height: 16px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: none;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
 }
