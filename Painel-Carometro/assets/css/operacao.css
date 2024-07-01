@@ -110,7 +110,7 @@ header {
     padding-bottom: 15px;
     border-bottom: 1px solid #d9d9d9;
     align-items: center;
-    justify-content: space-between;
+    gap: 140px;
 }
 
 #user-arrow {
@@ -271,12 +271,20 @@ header {
     color: #6B6B6B;
 }
 
-.status-bg{
+.status-conectado{
+    display: none;
     color: white;
     font-size: 18px;
     padding: 5px;
     border-radius: 5px;
     background-color: #339900;
+}
+.status-desconectado{
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #CC3300;
 }
 
 .button-ativo {
